@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "label": "Count",
+      "type": "number",
+      "id": "count"
+    },
+    {
+      "label": "isEditable",
+      "type": "boolean",
+      "id": "isEdit",
+      "defaultValue":false
+    },
+    {
+      "label": "Write Something",
+      "type": "string",
+      "id": "write"
+    },
+    {
+      "label": "Description",
+      "type": "multi-line",
+      "id": "desc"
+    },
+    {
+      "label": "Count Number",
+      "type": "number",
+      "id": "count2"
+    },
+    {
+      "label": "Text to be Entered",
+      "type": "string",
+      "id": "enter"
+    },
+    {
+      "label": "Count Number",
+      "type": "number",
+      "id": "count3"
+    },
+    {
+      "label": "select Date",
+      "type": "date",
+      "id": "dateEnter"
+    },
+    {
+      "label": "select Date1",
+      "type": "date",
+      "id": "dateEnter1"
+    },
+    {
+      "label": "Checked In",
+      "type": "boolean",
+      "id": "check4",
+      "defaultValue":true
+    },
+    {
+      "label": "Checking",
+      "data": [
+        "Check 1",
+        "check 2",
+        "check 3"
+      ],
+      "type": "enum",
+      "id": "check1"
+    },
+    {
+      "label": "Checking",
+      "data": [
+        "Check 1",
+        "check 2",
+        "check 3",
+        "check 6"
+      ],
+      "type": "enum",
+      "id": "check2"
+    }
+  ],
+  "title": "Form Genarator!!!!!",
+  "actionButtons": [
+    {
+      "label": "Save",
+      "id": "save"
+    },
+    {
+      "label": "Close",
+      "id": "close"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabsContainer{
+  position: fixed;
+  top: 50px;
+  z-index: 999;
+  max-width: 1200px
+}
+
+.tabContent{
+  border:1px solid #acadb0;
+  margin-top: 100px;
+  background: #ddd;
+  max-height: calc(100vh - 200px);
+  height: calc(100vh - 200px);
+  overflow: auto;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin:10px;
+}
+
+.textLabel {
+  word-wrap: break-word;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.textfield {
+  width: 260px;
+}
+.MuiGrid-root {
+  padding: 5px;
+}
+.buttonGroup .MuiButtonBase-root {
+  margin: 5px;
+  display: flex;
+  flex: 0 1 calc(25% - 70px);
+}
+.heading {
+  word-wrap: break-word;
+  justify-content: center;
+  display: flex;
+}
+.modalcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  word-break: break-word
+}
+ 
